@@ -1,8 +1,9 @@
 variable "filename" {
-  default ="pets.txt"
+ 
   type=string
-  description = "about pets"
+  description = "name of the file"
 }
 variable "content" {
-default ="i love pets.... "  
+type=string
+description = "content of the file"
 }
